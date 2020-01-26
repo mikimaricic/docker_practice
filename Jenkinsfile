@@ -6,6 +6,11 @@ pipeline {
                 echo 'Building..'
             }
         }
+        stage('test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
         stage('log') {
             steps {
                 println "Hello World"

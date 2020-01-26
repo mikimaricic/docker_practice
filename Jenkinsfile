@@ -10,9 +10,6 @@ pipeline {
             steps {
                 echo 'Testing..'
             }
-            steps {
-                echo 'Validation..'
-            }
         }
         stage('log') {
             steps {
